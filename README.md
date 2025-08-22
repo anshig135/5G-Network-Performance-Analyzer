@@ -17,11 +17,12 @@ It connects to a Quectel 5G modem (or similar) using AT commands over a serial i
 
 ## ⚙️ Requirements
 - Python 3.x
-- `pyserial` library
+- Required modeules:
+- `pyserial, pandas, matplotlib `
 
 Install dependencies:
 ```bash
-pip install pyserial
+pip install pyserial pandas matplotlib
 ```
 
 ---
