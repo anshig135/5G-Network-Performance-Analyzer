@@ -1,7 +1,8 @@
 # 5G Network Analyzer
 
-A Python-based project to interact with a 5G modem (such as Quectel modules) using AT commands.  
-This tool helps you test, monitor, and analyze modem responses such as signal strength, registration, and connectivity.
+## 📌 Project Overview
+The 5G Network Performance Analyzer is a Python-based tool to monitor, log, and visualize 5G network Key Performance Indicators (KPIs) in real-time.
+It connects to a Quectel 5G modem (or similar) using AT commands over a serial interface. This tool helps in field testing, coverage analysis, and quality mapping of 5G networks.
 
 ---
 
@@ -29,13 +30,13 @@ pip install pyserial
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/5g-network-analyzer.git
-cd 5g-network-analyzer
+git clone https://github.com/anshig135/5G-Network-Performance-Analyzer.git
+cd 5G-Network-Performance-Analyzer
 ```
 
 ### 2. Run the Script
 ```bash
-python modem.py
+python network_logger.py
 ```
 
 ---
@@ -92,11 +93,6 @@ A **5G modem** works as the interface between user equipment (laptops, IoT devic
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📜 License
-[MIT License](LICENSE)
 
 ---
 
